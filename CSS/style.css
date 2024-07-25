@@ -112,3 +112,27 @@ body{
 .links img{
     width: 30px;
 }
+
+
+@media(max-width: 400px){
+
+    body{ 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .container-principal{
+        width: 300px;
+    }
+
+    .texto{
+        width: 100px;
+        font-size: 18px;
+        display: flex;
+    }
+
+    .links{
+        width: 100px;
+    }
+}
